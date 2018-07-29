@@ -1,7 +1,8 @@
 package DSL;
 
-/**
- * 事件类
- */
 public class Event extends AbstractEvent {
+    public Event(String name,String code){
+        this.setName(name);
+        this.setCode(code);
+    }
 }

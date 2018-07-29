@@ -1,19 +1,10 @@
 package DSL;
 
-/**
- * 超类
- * 存储name和code
- */
 public class AbstractEvent {
 
-    /**
-     * 名字
-     */
+
     private String name;
 
-    /**
-     * 对应的代码
-     */
     private String code;
 
     public AbstractEvent(String name,String code){

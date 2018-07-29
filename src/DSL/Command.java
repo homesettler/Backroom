@@ -1,8 +1,8 @@
 package DSL;
 
-/**
- * 命令类
- */
 public class Command extends AbstractEvent {
-
+    public Command(String name,String code){
+        this.setName(name);
+        this.setCode(code);
+    }
 }

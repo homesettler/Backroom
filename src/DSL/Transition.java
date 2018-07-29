@@ -1,16 +1,10 @@
 package DSL;
 
-public class Transition {
+public class Transition{
 
     private final State source, target;
     private final Event trigger;
 
-    /**
-     * 构造函数
-     * @param source 源状态
-     * @param trigger 触发事件
-     * @param target 目标状态
-     */
     public Transition(State source, Event trigger, State target){
         this.source = source;
         this.target = target;
